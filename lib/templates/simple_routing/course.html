@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ course.Full_name }}</title>
+    </head>
+    <body>
+        <h1>{{ course.Full_name }}</h1>
+        <ul>
+          <li><strong>Course full name:</strong> {{ course.Full_name }}</li>
+          <li><strong>Teacher:</strong> {{ course.Teacher }}</li>
+          <li><strong>Number of credits:</strong> {{ course.EC }}</li>
+        </ul>
+
+        <p><a href="{{ url_for('courses') }}">Back to Courses</a></p>
+    </body>
+</html>

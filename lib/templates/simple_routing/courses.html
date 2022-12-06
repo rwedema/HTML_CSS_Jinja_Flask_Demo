@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Courses</title>
+    </head>
+    <body>
+        <!-- Two different methods for routing:
+            both methods will call @app.route('/course/<course_name>') in the simple_routing.py -->
+        <h1>Show the courses:</h1>
+        <ul>
+            <!--Method 1: hard-coded link, we route specifically to to the function /course given variable 'theme3' (in simple_routing.py)-->
+              <li><a href="/course/theme3">Theme03</a></li>
+            <!-- Method 2: dynamically, we ask "What is the url_for the function 'course' given variable 'informatics3'" from simple_routing.py -->
+              <li><a href="{{ url_for('course', course_name='informatics3') }}">Informatics3</a></li>
+
+        </ul>
+    </body>
+</html>

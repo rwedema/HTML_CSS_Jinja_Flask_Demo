@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- The title tag contains a placeholder {{ title }} that can be filled when rendering this file-->
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>Finally, my own website</h1>
+
+        <ul>
+            {# Note:
+            The Jinja2 for loop looks like the one you know from Python
+            Start the loop in between {% %}
+            Use a placeholder to access the element in the loop
+            End the loop using {% endfor %}
+            #}
+
+            {% for course in courses %}
+                <li>{{ course }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='Navigation.css')}}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="{{ url_for('root') }}">Index</a></li>
+            <li><a href="{{ url_for('add_course' )}}">Add a Course</a></li>
+
+        </ul>
+
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

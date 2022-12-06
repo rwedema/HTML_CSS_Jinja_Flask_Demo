@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- action="", makes that when the submit button is pushed, the program returns to itself. i.e. the
+            place/script where this function('form_GET.html') is called. Namely 'form_handling.py' -->
+            <form action="" method="POST">
+
+                <label for="course">Course Name</label>
+                <input class="form-control" name="course" placeholder="Course Name"><br />
+
+                <label for="EC">EC's</label>
+                <input class="form-control" name="ec" placeholder="Number of EC credits"><br />
+
+                <label for="Teacher">Teacher</label>
+                <input class="form-control" name="teacher" placeholder="Name of teacher"><br />
+
+                <button type="submit" name='submit'>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
+
