@@ -6,8 +6,9 @@ Start Pycharm and in the **Welcome to Pycharm** screen select **Check out from V
 
 ![](../Markdown_Images/NewProject.png "Pycharm Welcome Screen")
 
-In the new window pass the url to the repository and press **clone**.
-![](../Markdown_Images/Git_Checkout.png "Git_Checkout")
+In the new window pass the url to the repository 
+https://github.com/rwedema/HTML_CSS_Jinja_Flask_Demo.git
+and press **clone**.
 
 When asked to add files to Git select No.
 
