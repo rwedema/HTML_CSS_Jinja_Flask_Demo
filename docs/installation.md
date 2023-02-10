@@ -22,7 +22,7 @@ Next we need to configure the correction Python version. Select show all from th
 ![](../Markdown_Images/Interpreter_show_all.png "Show all installed Python versions")
 
 In the project Interpreters list click on the Plus sign on the right side and select *Create VirtualEnv*.
-Here we can create a new virtual environment which allows us to install locally any missing Python dependencies. As Base interpreter select Python3.5 and give this environment a name in the Name field.
+Here we can create a new virtual environment which allows us to install locally any missing Python dependencies. As Base interpreter select the latest Python version (at the time of creating this manual Python3.5) and give this environment a name in the Name field.
 
 ![](../Markdown_Images/Select_Py_version.png "Select Python3 as our base interpreter")
 
